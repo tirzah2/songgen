@@ -33,7 +33,7 @@ jobs:
         run: cat module.json
 
       # Create a zip file with all files required by the module to add to the release
-      - run: zip -r module.zip module.json templates styles js
+      - run: zip -r module.zip module.json templates css js
 
       - name: Update Release with Files
         id: create_version_release
