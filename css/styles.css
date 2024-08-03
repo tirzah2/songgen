@@ -1,0 +1,12 @@
+#songgen-app {
+    padding: 10px;
+  }
+  
+  #songgen-app .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #songgen-app label {
+    font-weight: bold;
+  }
+  
