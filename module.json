@@ -1,41 +1,41 @@
 {
-    "id": "songgen",
-    "title": "Song Generator",
-    "description": "A module to generate songs using the Suno API deployed on Vercel.",
-    "version": "1.0.0",
-    "url": "https://github.com/tirzah2/songgen",
-    "readme": "https://github.com/tirzah2/songgen/README.md",
-    "manifest": "https://github.com/tirzah2/songgen/releases/latest/download/module.json",
-    "download": "https://github.com/tirzah2/songgen/releases/download/1.0/module.zip",
-    "authors": [
-        {
-            "name": "Kaleth",
-            "url": "",
-            "discord": "DMKal"
-        }
-    ],
-    "esmodules": ["js/songgen.js"],
-    "styles": ["css/styles.css"],
-    "packs": [],
-    "relationships": {
-        "systems": [],
-        "requires": [
-            {
-                "id": "multi-token-edit",
-                "type": "module",
-                "manifest": "https://raw.githubusercontent.com/Aedif/multi-token-edit/v11/multi-token-edit/module.json"
-            },
-            {
-                "id": "sequencer",
-                "type": "module",
-                "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json"
-            }
-        ]
-    },
-    "compatibility": {
-        "minimum": "11",
-        "verified": "11",
-        "maximum": "11"
-    },
-    "socket": true
+  "id": "songgen",
+  "title": "Song Generator",
+  "description": "A module to generate songs using the Suno API deployed on Vercel.",
+  "version": "1.0.0",
+  "url": "https://github.com/tirzah2/songgen",
+  "readme": "https://github.com/tirzah2/songgen/README.md",
+  "manifest": "https://github.com/tirzah2/songgen/releases/latest/download/module.json",
+  "download": "https://github.com/tirzah2/songgen/releases/download/1.0/module.zip",
+  "authors": [
+    {
+      "name": "Kaleth",
+      "url": "",
+      "discord": "DMKal"
+    }
+  ],
+  "esmodules": ["js/songgen.js"],
+  "styles": ["css/styles.css"],
+  "packs": [],
+  "relationships": {
+    "systems": [],
+    "requires": [
+      {
+        "id": "multi-token-edit",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Aedif/multi-token-edit/v11/multi-token-edit/module.json"
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "socket": true
 }
