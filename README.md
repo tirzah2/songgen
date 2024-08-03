@@ -3,6 +3,10 @@
 
 # SongGen FoundryVTT Module
 
+
+https://github.com/user-attachments/assets/044c780e-2ead-4c97-a4b9-be3a1c3b4c28
+
+
 **SongGen** is a FoundryVTT module that integrates with Suno API for generating songs and OpenAI API for creating karaoke lyrics from ambient sounds. This module allows you to dynamically create music for your game sessions and add karaoke effects to your ambient sounds.
 
 ## Features
