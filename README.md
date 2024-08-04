@@ -1,4 +1,5 @@
-
+Do you need support or help with the installation? 
+Offer me a coffee and contact me on Discord! #dmkal
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D210UKH9)  
 
 # SongGen FoundryVTT Module
