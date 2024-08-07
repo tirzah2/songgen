@@ -341,7 +341,7 @@ async function runKaraokeMacro() {
         let audioSequence = new Sequence();
         audioSequence.sound()
             .file(soundUrl) // Use the selected ambient sound's URL
-            .play();
+
 
         // Play the audio sequence
         audioSequence.play();
@@ -355,7 +355,7 @@ async function runKaraokeMacro() {
                 .text(lyric.text, style)
                 .duration(duration * 1000) // Duration for each lyric to stay visible
                 .delay(lyric.start * 1000)
-                .play();
+
         }
 
         // Play the text sequence
@@ -369,7 +369,7 @@ async function runKaraokeMacro() {
             let audioSequence = new Sequence();
             audioSequence.sound()
                 .file("${soundUrl}")
-                .play();
+
             audioSequence.play();
 
             let textSequence = new Sequence();
@@ -382,7 +382,7 @@ async function runKaraokeMacro() {
                     .text(lyric.text, style)
                     .duration(duration * 1000)
                     .delay(lyric.start * 1000)
-                    .play();
+
             }
             textSequence.play();
             `,
